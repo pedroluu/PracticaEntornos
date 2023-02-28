@@ -7,7 +7,7 @@ public class Profesor {
 	private int numAlumnos;
 	private int horasClase;
 	private String asignatura;
-	private String apellidos;
+	private String apellido;
 	
 	
 	public Profesor(int nombre, int numAlumnos, int horasClase, String asignatura) {
