@@ -8,14 +8,20 @@ public class Profesor {
 	private int horasClase;
 	private String asignatura;
 	private String apellido;
+	private String dni;
 	
+	public Profesor() {
+		
+	}
 	
-	public Profesor(int nombre, int numAlumnos, int horasClase, String asignatura) {
+	public Profesor(int nombre, int numAlumnos, int horasClase, String asignatura,String dni,String apellido) {
 		super();
 		this.nombre = nombre;
 		this.numAlumnos = numAlumnos;
 		this.horasClase = horasClase;
 		this.asignatura = asignatura;
+		this.dni= dni;
+		this.apellido= apellido;
 	}
 
 
