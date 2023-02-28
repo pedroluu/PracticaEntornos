@@ -64,12 +64,13 @@ public class Profesor {
 		this.asignatura = asignatura;
 	}
 
-
 	@Override
 	public String toString() {
 		return "Profesor [nombre=" + nombre + ", numAlumnos=" + numAlumnos + ", horasClase=" + horasClase
-				+ ", asignatura=" + asignatura + "]";
+				+ ", asignatura=" + asignatura + ", apellido=" + apellido + ", dni=" + dni + "]";
 	}
+
+	
 	
 	
 
